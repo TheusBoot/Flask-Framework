@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <h1>hello word</h1>
-    
+
+  <header>
+    <div class="container">
+      <a href="#">
+        <img src="images/twitter.png" alt="Twitter logo">
+      </a>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Explorar</a>
+        <a href="#">Notificações</a>
+        <a href="#">Configurações</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="feed">
+      <ul>
+        <li>
+          <img src="images/profile.jpg" alt="Foto de perfil">
+          <a href="#">@bard</a>
+          <p>Este é um tweet de exemplo.</p>
+          <span class="time">1 minuto atrás</span>
+        </li>
+        <li>
+          <img src="images/profile.jpg" alt="Foto de perfil">
+          <a href="#">@bard</a>
+          <p>Este é outro tweet de exemplo.</p>
+          <span class="time">5 minutos atrás</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="tweet-box">
+      <div class="container">
+        <form action="#">
+          <input type="text" placeholder="O que você está pensando?">
+          <button type="submit">Tweetar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2023</p>
+  </footer>
+
 </body>
 </html>
